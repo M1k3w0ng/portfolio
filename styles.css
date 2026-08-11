@@ -29,12 +29,17 @@ h1,h2,h3{font-family:var(--mono);font-weight:500;letter-spacing:-.08em}.eyebrow,
     display:inline-flex;
     align-items:center;
     gap:.35rem;
-    border:1px solid var(--line);
+    border:1px solid var(--lime);
     border-radius:999px;
     padding:.35rem .65rem;
-    color:var(--ink);
-    background:var(--paper);
+    color:var(--paper);
+    background:var(--lime);
     cursor:pointer;
+  }
+  .light-theme .menu-toggle{
+    border-color:var(--ink);
+    color:var(--paper);
+    background:var(--ink);
   }
   .nav-links{
     padding:4.4rem 20px 1.5rem;
@@ -53,8 +58,8 @@ h1,h2,h3{font-family:var(--mono);font-weight:500;letter-spacing:-.08em}.eyebrow,
     right:20px;
   }
   .nav-links .language-picker select{font-size:.62rem;padding:.45rem .4rem}
-  .contact-panel{padding:2.5rem 1.35rem}
+  .contact-panel{padding:2.5rem 1.35rem;min-width:0}
   .contact-panel h2{font-size:clamp(2.35rem,11vw,3.3rem);line-height:1.08}
-  .contact-links{display:grid;gap:1rem;margin-top:2rem}
+  .contact-links{display:grid;gap:1rem;margin-top:2rem;min-width:0}
   .contact-links a{overflow-wrap:anywhere}
 }
