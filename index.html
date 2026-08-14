@@ -17,7 +17,7 @@
   <header class="site-header">
     <nav class="nav container" aria-label="Main navigation">
       <a class="brand" href="#top" aria-label="Wong Yoke Sin home"><span>W</span> YOKE SIN</a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu <span aria-hidden="true">☰</span></button>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" data-i18n="nav.menu">Menu <span aria-hidden="true">☰</span></button>
       <div class="nav-links" id="site-menu">
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
@@ -48,7 +48,7 @@
         </div>
         <div class="hero-note"><span class="mono">TAR UMT IT GRADUATE</span><p>Curious by default.<br>Reliable by design.</p></div>
         <div class="terminal-actions" aria-label="Quick profile commands">
-          <span>quick_access:</span>
+          <span data-i18n="hero.quick-access">quick_access:</span>
           <button type="button" data-command="about">about</button>
           <button type="button" data-command="skills">skills</button>
           <button type="button" data-command="contact">contact</button>
@@ -74,8 +74,8 @@
       <div class="section-label"><span>02</span><span>Experience</span></div>
       <div class="section-content">
         <article class="timeline-item">
-          <div class="timeline-date mono">NOV 2024<br>— JUL 2025</div>
-          <div class="timeline-body"><p class="kicker">Invantest · Intern</p><h3>Making deployments simpler and more reliable.</h3><ul class="experience-list"><li>Researched and documented AI approaches to improve work efficiency, contributing them to the company knowledge base.</li><li>Assisted customers with automated product installation for OCAP, PCS, Keycloak, and TMS using Docker and Podman.</li><li>Developed a streamlined method to simplify Podman deployments and improve installation workflows.</li><li>Created OS preparation scripts to accelerate and optimize installation setup.</li></ul><div class="skills-filter" aria-label="Filter skills"><span class="mono">FILTER SKILLS</span><button type="button" class="skill-filter is-active" data-filter="all">All</button><button type="button" class="skill-filter" data-filter="devops">DevOps</button><button type="button" class="skill-filter" data-filter="development">Development</button></div><ul class="tag-list filterable-skills"><li data-skill="devops">Linux</li><li data-skill="devops">Docker</li><li data-skill="devops">Podman</li><li data-skill="devops">Azure DevOps</li><li data-skill="development">Python</li><li data-skill="development">Kotlin</li></ul></div>
+          <div class="timeline-date mono" data-i18n="experience.dates">NOV 2024<br>— JUL 2025</div>
+          <div class="timeline-body"><p class="kicker" data-i18n="experience.kicker">Invantest · Intern</p><h3 data-i18n="experience.title">Making deployments simpler and more reliable.</h3><ul class="experience-list"><li data-i18n="experience.item1">Researched and documented AI approaches to improve work efficiency, contributing them to the company knowledge base.</li><li data-i18n="experience.item2">Assisted customers with automated product installation for OCAP, PCS, Keycloak, and TMS using Docker and Podman.</li><li data-i18n="experience.item3">Developed a streamlined method to simplify Podman deployments and improve installation workflows.</li><li data-i18n="experience.item4">Created OS preparation scripts to accelerate and optimize installation setup.</li></ul><div class="skills-filter" aria-label="Filter skills"><span class="mono" data-i18n="experience.filter-label">FILTER SKILLS</span><button type="button" class="skill-filter is-active" data-filter="all" data-i18n="experience.filter-all">All</button><button type="button" class="skill-filter" data-filter="devops" data-i18n="experience.filter-devops">DevOps</button><button type="button" class="skill-filter" data-filter="development" data-i18n="experience.filter-development">Development</button></div><ul class="tag-list filterable-skills"><li data-skill="devops">Linux</li><li data-skill="devops">Docker</li><li data-skill="devops">Podman</li><li data-skill="devops">Azure DevOps</li><li data-skill="development">Python</li><li data-skill="development">Kotlin</li></ul></div>
         </article>
       </div>
     </section>
@@ -92,18 +92,18 @@
       <div class="section-label"><span>04</span><span>Selected project</span></div>
       <div class="section-content project-feature">
         <div class="project-visual" data-tilt tabindex="0" aria-label="EcoTrack project preview"><div class="project-mark">eco<span>track</span></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="visual-caption mono">~/projects/ecotrack · hover me</span></div>
-        <div class="project-info"><p class="kicker">Final-year project · Sustainable Transportation System</p><h2>Make every journey<br>count for <em>less.</em></h2><p>An Android application designed to encourage sustainable transportation through practical, lower-impact commuting tools.</p><div class="project-details"><div><span class="mono">THE IDEA</span><p>Implemented carpool requests, a reward mechanism, and carbon-footprint tracking to encourage smarter journeys.</p></div><div><span class="mono">THE BUILD</span><p>Built with Kotlin and Firebase, using a cloud database structure and real-time data synchronization.</p></div></div><ul class="tag-list"><li>Kotlin</li><li>Firebase</li><li>Carpooling</li><li>Carbon tracking</li></ul></div>
+        <div class="project-info"><p class="kicker">Final-year project · Sustainable Transportation System</p><h2>Make every journey<br>count for <em>less.</em></h2><p>An Android application designed to encourage sustainable transportation through practical, lower-impact commuting tools.</p><div class="project-details"><div><span class="mono" data-i18n="project.idea">THE IDEA</span><p data-i18n="project.idea-text">Implemented carpool requests, a reward mechanism, and carbon-footprint tracking to encourage smarter journeys.</p></div><div><span class="mono" data-i18n="project.build">THE BUILD</span><p data-i18n="project.build-text">Built with Kotlin and Firebase, using a cloud database structure and real-time data synchronization.</p></div></div><ul class="tag-list"><li>Kotlin</li><li>Firebase</li><li>Carpooling</li><li>Carbon tracking</li></ul></div>
       </div>
     </section>
 
     <section class="journey section container" id="journey">
       <div class="section-label"><span>05</span><span>My technical journey</span></div>
       <div class="section-content journey-layout">
-        <div><h2>Learned by<br><em>building.</em></h2><p class="journey-intro">A practical progression from programming foundations in my degree, to tools used during my internship, and the infrastructure technologies I’m growing toward.</p><div class="journey-strengths"><span class="mono">SOFT SKILLS</span><p>Observation <b>·</b> Communication <b>·</b> Problem-solving <b>·</b> Fast learner</p><span class="mono">LANGUAGES</span><p>Malay <b>·</b> Chinese <b>·</b> English</p></div></div>
+        <div><h2>Learned by<br><em>building.</em></h2><p class="journey-intro" data-i18n="journey.intro">A practical progression from programming foundations in my degree, to tools used during my internship, and the infrastructure technologies I’m growing toward.</p><div class="journey-strengths"><span class="mono" data-i18n="journey.soft-skills">SOFT SKILLS</span><p data-i18n="journey.skills-text">Observation <b>·</b> Communication <b>·</b> Problem-solving <b>·</b> Fast learner</p><span class="mono" data-i18n="journey.languages">LANGUAGES</span><p data-i18n="journey.languages-list">Malay <b>·</b> Chinese <b>·</b> English</p></div></div>
         <div class="journey-tree" aria-label="Technical journey timeline">
-          <div class="journey-year"><span class="journey-year-label">DEGREE</span><div class="journey-items"><div><b>Programming foundations</b><span>Python · C++ · Java · Kotlin · SQL · Shell Script</span></div><div><b>Software development</b><span>Android / Kotlin · Firebase · EcoTrack</span></div></div></div>
-          <div class="journey-year"><span class="journey-year-label">INTERNSHIP</span><div class="journey-items"><div>Linux <span>CentOS 7 · RHEL</span></div><div>Docker / Podman</div><div>Azure DevOps / GitHub</div><div>Keycloak / DevOps Automation</div></div></div>
-          <div class="journey-year"><span class="journey-year-label">NEXT</span><div class="journey-items"><div>SRE</div><div>Kubernetes</div><div>Kafka</div><div>Splunk</div><div>Cloud / Infrastructure</div></div></div>
+          <div class="journey-year"><span class="journey-year-label" data-i18n="journey.degree">DEGREE</span><div class="journey-items"><div><b>Programming foundations</b><span>Python · C++ · Java · Kotlin · SQL · Shell Script</span></div><div><b>Software development</b><span>Android / Kotlin · Firebase · EcoTrack</span></div></div></div>
+          <div class="journey-year"><span class="journey-year-label" data-i18n="journey.internship">INTERNSHIP</span><div class="journey-items"><div>Linux <span>CentOS 7 · RHEL</span></div><div>Docker / Podman</div><div>Azure DevOps / GitHub</div><div>Keycloak / DevOps Automation</div></div></div>
+          <div class="journey-year"><span class="journey-year-label" data-i18n="journey.next">NEXT</span><div class="journey-items"><div>SRE</div><div>Kubernetes</div><div>Kafka</div><div>Splunk</div><div>Cloud / Infrastructure</div></div></div>
         </div>
       </div>
     </section>
